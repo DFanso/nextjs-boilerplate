@@ -1,2 +1,3 @@
-# nextjs boilerplate
- 
+# Nextjs Boilerplate   
+
+```pnpm run dev```
