@@ -29,36 +29,61 @@ A modern, production-ready Next.js boilerplate with TypeScript, Tailwind CSS, an
 
 ## 🚀 Getting Started
 
+### Using This Template
+
+This boilerplate is designed to be used as a template for your new projects. We provide an automated setup script to make this process seamless!
+
+#### Quick Start (Recommended)
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/DFanso/nextjs-boilerplate.git my-new-project
+   cd my-new-project
+   ```
+
+2. **Run the setup script:**
+   ```bash
+   node setup.js
+   ```
+   
+   The script will:
+   - ✅ Prompt you for project name, description, and author
+   - ✅ Update `package.json` with your project details
+   - ✅ Update README.md
+   - ✅ Remove old git history
+   - ✅ Clean up setup files
+
+3. **Initialize git repository:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+4. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
+
+5. **Start developing:**
+   ```bash
+   pnpm run dev
+   ```
+
+6. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
+
+> 📖 For other setup methods (GitHub Template, manual setup, degit), see [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md)
+
 ### Prerequisites
 
-Make sure you have the following installed:
 - Node.js 18+ 
 - PNPM (recommended) or npm/yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone [nextjs-boilerplate](https://github.com/DFanso/nextjs-boilerplate)
-cd nextjs-boilerplate
-```
-
-2. Install dependencies:
-```bash
-pnpm install
-```
-
-3. Start the development server:
-```bash
-pnpm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📜 Available Scripts
 
 | Command | Description |
 |---------|-------------|
+| `pnpm run setup` | Run the project setup wizard (for new projects) |
 | `pnpm run dev` | Start development server with Turbopack |
 | `pnpm run build` | Build the application for production |
 | `pnpm run start` | Start the production server |
